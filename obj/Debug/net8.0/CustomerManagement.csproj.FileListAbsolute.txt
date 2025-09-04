@@ -45,6 +45,10 @@ C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Npgsql.dll
+C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -153,6 +157,7 @@ C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\CustomerManagement.Assembl
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\CustomerManagement.csproj.CoreCompileInputs.cache
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\CustomerManagement.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\CustomerManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\CustomerManagement.sourcelink.json
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\staticwebassets\msbuild.CustomerManagement.Microsoft.AspNetCore.StaticWebAssets.props
@@ -167,7 +172,3 @@ C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\refint\CustomerManagement.
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\CustomerManagement.pdb
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\CustomerManagement.genruntimeconfig.cache
 C:\Users\ToanKhoa\CustomerManagement\obj\Debug\net8.0\ref\CustomerManagement.dll
-C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Npgsql.dll
-C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\ToanKhoa\CustomerManagement\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
