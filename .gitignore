@@ -24,11 +24,11 @@ package-lock.json
 *.sw?
 
 # .NET build output
-bin/
-obj/
+bin
+obj
 
 # Visual Studio
-.vs/
+.vs
 *.user
 *.suo
 *.userosscache
