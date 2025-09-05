@@ -1,8 +1,8 @@
 using BCrypt.Net;
-using CustomerManagement.Models;
-using CustomerManagement.Repositories;
+using UserManagement.Models;
+using UserManagement.Repositories;
 
-namespace CustomerManagement.Services;
+namespace UserManagement.Services;
 
 public class AuthService : IAuthService
 {

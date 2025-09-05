@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
-using CustomerManagement.Models;
-using CustomerManagement.Services;
+using UserManagement.Models;
+using UserManagement.Services;
 
-namespace CustomerManagement.Controllers;
+namespace UserManagement.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

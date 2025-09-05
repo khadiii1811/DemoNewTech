@@ -1,6 +1,6 @@
-using CustomerManagement.Models;
+using UserManagement.Models;
 
-namespace CustomerManagement.Repositories;
+namespace UserManagement.Repositories;
 
 public interface IUserRepository
 {

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using CustomerManagement.Models;
+using UserManagement.Models;
 
-namespace CustomerManagement.Data;
+namespace UserManagement.Data;
 
 public class AppDbContext : DbContext
 {

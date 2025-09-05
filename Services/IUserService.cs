@@ -1,6 +1,6 @@
-using CustomerManagement.Models;
+using UserManagement.Models;
 
-namespace CustomerManagement.Services;
+namespace UserManagement.Services;
 
 public interface IUserService
 {

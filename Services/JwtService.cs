@@ -2,9 +2,9 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using CustomerManagement.Models;
+using UserManagement.Models;
 
-namespace CustomerManagement.Services;
+namespace UserManagement.Services;
 
 public class JwtService : IJwtService
 {

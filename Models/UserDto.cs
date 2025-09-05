@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace CustomerManagement.Models;
+namespace UserManagement.Models;
 
 public class CreateUserDto
 {

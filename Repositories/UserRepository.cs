@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
-using CustomerManagement.Data;
-using CustomerManagement.Models;
+using UserManagement.Data;
+using UserManagement.Models;
 
-namespace CustomerManagement.Repositories;
+namespace UserManagement.Repositories;
 
 public class UserRepository : IUserRepository
 {

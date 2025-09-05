@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using CustomerManagement.Data;
-using CustomerManagement.Services;
-using CustomerManagement.Repositories;
+using UserManagement.Data;
+using UserManagement.Services;
+using UserManagement.Repositories;
 using Npgsql.EntityFrameworkCore.PostgreSQL; 
 
 var builder = WebApplication.CreateBuilder(args);

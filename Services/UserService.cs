@@ -1,8 +1,8 @@
-using CustomerManagement.Models;
-using CustomerManagement.Repositories;
+using UserManagement.Models;
+using UserManagement.Repositories;
 using BCrypt.Net;
 
-namespace CustomerManagement.Services;
+namespace UserManagement.Services;
 
 public class UserService : IUserService
 {
