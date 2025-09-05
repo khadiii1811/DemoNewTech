@@ -1,37 +1,64 @@
-### Get all customers
-GET {{baseUrl}}/api/customers
+### ========== Authentication APIs ==========
 
-### Get customer by ID
-GET {{baseUrl}}/api/customers/1
-
-### Create new customer
-POST {{baseUrl}}/api/customers
+### Login
+POST {{baseUrl}}/api/auth/login
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "john.doe@example.com",
-  "phone": "+1234567890",
-  "address": "123 Main St, City, Country"
+  "username": "admin",
+  "password": "adminpass123"
 }
 
-### Update customer
-PUT {{baseUrl}}/api/customers/1
+### Get current user info
+GET {{baseUrl}}/api/auth/me
+Authorization: Bearer {{authToken}}
+
+### ========== User Management APIs (Admin Only) ==========
+
+### Get all users (Admin only)
+GET {{baseUrl}}/api/users
+Authorization: Bearer {{authToken}}
+
+### Get user by ID
+GET {{baseUrl}}/api/users/1
+Authorization: Bearer {{authToken}}
+
+### Create new customer user (Admin only)
+POST {{baseUrl}}/api/users
 Content-Type: application/json
+Authorization: Bearer {{authToken}}
 
 {
-  "name": "John Smith",
-  "phone": "+0987654321"
+  "username": "johndoe",
+  "password": "password123",
+  "roleName": "customer"
 }
 
-### Deactivate customer
-PATCH {{baseUrl}}/api/customers/1/deactivate
+### Create admin user (Admin only)
+POST {{baseUrl}}/api/users
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
 
-### Activate customer
-PATCH {{baseUrl}}/api/customers/1/activate
+{
+  "username": "admin",
+  "password": "adminpass123",
+  "roleName": "admin"
+}
 
-### Delete customer
-DELETE {{baseUrl}}/api/customers/1
+### Update user (Admin only)
+PUT {{baseUrl}}/api/users/1
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+  "username": "johnsmith",
+  "roleName": "admin"
+}
+
+### Delete user (Admin only)
+DELETE {{baseUrl}}/api/users/1
+Authorization: Bearer {{authToken}}
 
 ### Variables
 @baseUrl = https://localhost:7000
+@authToken = your-jwt-token-here
